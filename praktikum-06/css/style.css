@@ -1,0 +1,47 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: lightgray;
+}
+
+#header blockquote {
+    background-color: lightgray;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
