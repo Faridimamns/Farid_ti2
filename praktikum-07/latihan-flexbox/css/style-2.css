@@ -1,0 +1,10 @@
+.koleksi {
+    background-color: rgb(181, 181, 2);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.koleksi img {
+    width: 200px;
+}
