@@ -7,6 +7,30 @@
     <title>Latihan Javascript 4</title>
 </head>
 <body>
-    
+    <h1>Menghitung Jumlah Dua Bilangan</h1>
+
+    <input type="number" id="nilai" onchange="jumlah()">
+
+    <p> <b>+</b> </p>
+
+    <input type="number" id="nilai1" onchange="jumlah()">
+
+    <p> <b>=</b> </p>
+
+    <p>Hasil perhitungan : <span id="penjumlahan">0</span></p>
+
+
+    <script>
+        function jumlah() {
+            let nilai = document.getElementById('nilai').value;
+            let nilai1 = document.getElementById('nilai1').value;
+
+            let penjumlahan = parseInt(nilai) + parseInt(nilai1);
+
+            document.getElementById('penjumlahan').innerHTML = penjumlahan;
+        }
+    </script>
+
+
 </body>
 </html>
